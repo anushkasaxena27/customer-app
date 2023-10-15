@@ -1,6 +1,8 @@
 # CustomerApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+[Screenshot 2023-10-15 220402](https://github.com/anushkasaxena27/customer-app/assets/64084071/d006634b-5dcd-4223-8ef0-c4cc51672014)
+
 
 #JSON Server
 This project stores data using a local server. use `npm start` from the project directory to start the server. Keep the server active to access data.
