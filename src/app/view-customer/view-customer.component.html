@@ -1,0 +1,29 @@
+ 
+  <div class="container-fluid ">
+      <div class="card customer-card shadow "style="width: 40rem;" >
+          <div class="card-body">
+         <div class="row align-items-center">
+          <div class="col col-sm-4">
+           <img  class = "customer-image rounded"[src]="customer.photo"alt="customer-img">
+           </div>
+           <div class="mx-4 col col-sm-6">
+            <ul class="list-group list-unstyled mb-3">
+              <li class="list-group-item bg-light border-bottom"><span class="fw-bold">Name: {{customer.name}}</span></li>
+              <li class="list-group-item bg-light border-bottom"><span class="fw-bold">Email: {{customer.email}}</span></li>
+              <li class="list-group-item bg-light border-bottom"><span class="fw-bold">Mobile : {{customer.mobiles}}</span></li>
+              <li class="list-group-item bg-light border-bottom"><span class="fw-bold">Address: {{customer.addresses}}</span></li>
+              <li class="list-group-item bg-light border-bottom"><span class="fw-bold">Ratings: {{customer.ratings}}&nbsp;&#9733;</span></li>
+  
+            </ul>
+  
+            <div class="col" >
+              <!-- <a href="#" class="btn btn-sm btn-primary mx-1" ><i class="fa-solid fa-eye "></i>View
+              </a>         -->
+                
+                <a href="#" class="btn btn-sm  btn-outline-dark mx-1"><i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;Home
+                </a>
+            </div>
+          </div>
+  </div>
+  
+  

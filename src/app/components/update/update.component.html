@@ -1,0 +1,38 @@
+
+<div class="container-fluid ">
+  <div class="card customer-card shadow "style="width: 40rem; height: 60rem" >
+      <div class="card-body">
+    <h1>Update Customer</h1>
+      <form (submit)="onSubmit()" >
+          <div class="mb-1">
+              <label  class="form-label">Enter Name</label>
+              <input  type="text" class="form-control"  [(ngModel)] = "customer.name" name = "name">
+            </div>
+          <div class="mb-1">
+            <label  class="form-label">Email address</label>
+            <input type="email" class="form-control" [(ngModel)] = "customer.email" name = "email">
+          </div>
+          <div class="mb-1">
+            <label  class="form-label">Enter Mobile</label>
+            <input type="text" class="form-control" [(ngModel)] = "customer.mobiles" name="mobile" >
+          </div>
+          <div class="mb-1">
+              <label  class="form-label">Enter Image url</label>
+              <input type="text" class="form-control" [(ngModel)] = "customer.photo" name = "photo">
+            </div>
+            <div class="mb-1">
+              <label  class="form-label">Enter Address</label>
+              <input type="text" class="form-control" [(ngModel)] = "customer.addresses" name = "address">
+            </div>
+            <div class="mb-2">
+              <label  class="form-label">Enter Rating</label>
+              <input type="text" class="form-control" [(ngModel)] = "customer.ratings" name = "ratings">
+            </div>
+          <button type="submit" class="btn btn-secondary"><i class="fa-solid fa-pen-to-square "></i>Update</button>
+        </form>
+  </div>
+  </div>
+  </div>
+  
+  
+  

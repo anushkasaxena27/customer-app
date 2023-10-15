@@ -1,0 +1,35 @@
+
+<div class="container-modal  ">
+    <h1>Add Customer</h1>
+      <form  (submit)="onSubmit(f)" #f = "ngForm">
+          <div class="mb-2">
+              <label  class="form-label">Enter Name</label>
+              <input  type="text" class="form-control" data-toggle="tooltip" data-placement="top" title="Enter Your Name Here" [(ngModel)] = "customer.name" name = "contact">
+            </div>
+          <div class="mb-2">
+            <label  class="form-label">Email Email</label>
+            <input type="email" class="form-control" data-toggle="tooltip" data-placement="top" title="Enter Your mailbox details here"[(ngModel)] = "customer.email" name = "email">
+          </div>
+          <div class="mb-2">
+            <label  class="form-label">Enter Mobile</label>
+            <input type="text" class="form-control" [(ngModel)] = "customer.mobiles" name="mobiles" data-toggle="tooltip" data-placement="top" title="Your contact details here">
+          </div>
+          <div class="mb-2">
+              <label  class="form-label">Enter Image url</label>
+              <input type="text" class="form-control" [(ngModel)] = "customer.photo" data-toggle="tooltip" data-placement="top" title="Enter a url for your contact photo"name = "photo">
+            </div>
+            <div class="mb-2">
+                <label  class="form-label">Enter Address</label>
+                <input type="text" class="form-control" [(ngModel)] = "customer.addresses" data-toggle="tooltip" data-placement="top" title="Enter your Address here"name = "addresses">
+              </div>
+              <div class="mb-2">
+                <label  class="form-label">Enter Ratings</label>
+                <input type="text" class="form-control" [(ngModel)] = "customer.ratings" data-toggle="tooltip" data-placement="top" title="Enter a rating between 1 to 10, 1 for lowest and 10 for highest" name = "ratings" >
+              </div>
+             
+  
+          <button type="submit" routerLink="/" class="btn btn-secondary"><i class="mx-2 fa-solid fa-plus-circle"></i>Add</button>
+        </form>
+  </div>
+  
+  

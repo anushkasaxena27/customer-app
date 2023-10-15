@@ -1,0 +1,76 @@
+{
+  "customers": [
+    {
+      "name": "John",
+      "email": "saxenaanushka27@gmail.com",
+      "photo": "https://www.w3schools.com/w3images/avatar2.png",
+      "id": 3,
+      "mobiles": "9090909099",
+      "addresses": "Keas 69 Str. 15234, Chalandri Athens, Greece",
+      "ratings": "8"
+    },
+    {
+      "name": "John",
+      "email": "john@email.com",
+      "photo": "https://www.w3schools.com/w3images/avatar2.png",
+      "id": 4,
+      "mobiles": "9090909099",
+      "addresses": "Keas 69 Str. 15234, Chalandri Athens, Greece",
+      "ratings": "7"
+    },
+    {
+      "name": "Anushka",
+      "email": "saxenaanushka27@gmail.com",
+      "photo": "https://www.w3schools.com/w3images/avatar2.png",
+      "addresses": "26985 Brighton Lane,. Lake Forest, CA 92630",
+      "id": 6,
+      "ratings": "9",
+      "mobiles": "9305786130"
+    },
+    {
+      "name": "Satish",
+      "email": "satish@gmail.com",
+      "mobiles": "9234567865",
+      "photo": "https://static.vecteezy.com/system/resources/previews/021/548/095/non_2x/default-profile-picture-avatar-user-avatar-icon-person-icon-head-icon-profile-picture-icons-default-anonymous-user-male-and-female-businessman-photo-placeholder-social-network-avatar-portrait-free-vector.jpg",
+      "addresses": "B-201 CLASSIQUE CHS LTD, LINK ROAD, EVERSHINE NAGAR, PLOT NO 14 & 44 ...",
+      "ratings": "9",
+      "id": 7
+    },
+    {
+      "name": "Satish",
+      "email": "satish@gmail.com",
+      "mobiles": "9234567865",
+      "photo": "https://static.vecteezy.com/system/resources/previews/021/548/095/non_2x/default-profile-picture-avatar-user-avatar-icon-person-icon-head-icon-profile-picture-icons-default-anonymous-user-male-and-female-businessman-photo-placeholder-social-network-avatar-portrait-free-vector.jpg",
+      "addresses": "B-201 CLASSIQUE CHS LTD, LINK ROAD, EVERSHINE NAGAR, PLOT NO 14 & 44 ...",
+      "ratings": "7",
+      "id": 8
+    },
+    {
+      "name": "Jatin",
+      "email": "hatin@eygfj.com",
+      "mobiles": "9234567865",
+      "photo": "https://www.w3schools.com/w3images/avatar2.png",
+      "addresses": "B-201 CLASSIQUE CHS LTD, LINK ROAD, EVERSHINE NAGAR, PLOT NO 14 & 44 ...",
+      "ratings": "9",
+      "id": 9
+    },
+    {
+      "name": "Jatin",
+      "email": "hatin@eygfj.com",
+      "mobiles": "9234567865",
+      "photo": "https://www.w3schools.com/w3images/avatar2.png",
+      "addresses": "B-201 CLASSIQUE CHS LTD, LINK ROAD, EVERSHINE NAGAR, PLOT NO 14 & 44 ...",
+      "ratings": "9",
+      "id": 10
+    },
+    {
+      "name": "Jatin",
+      "email": "hatin@eygfj.com",
+      "mobiles": "9234567865",
+      "photo": "https://www.w3schools.com/w3images/avatar2.png",
+      "addresses": "B-201 CLASSIQUE CHS LTD, LINK ROAD, EVERSHINE NAGAR, PLOT NO 14 & 44 ...",
+      "ratings": "9",
+      "id": 11
+    }
+  ]
+}

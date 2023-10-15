@@ -1,0 +1,45 @@
+
+  <h1 class = "font-weight-bold text-center">Customer Info</h1>
+  <form class="form  d-flex">
+    
+    <input class="form-control form-control-sm ml-3 w-90" type="text" placeholder="Search"
+      aria-label="Search" #search ><button (click)="onSearchCustomer(search.value)"  class="btn btn-search "><i class="mx-2 fas fa-search" aria-hidden="true"> </i></button>
+  </form>
+<button routerLink="customers/add"  (click)="openAdd()" class="btn btn-add mt-2"><i class="mx-2 fa fa-plus-circle"></i>Add</button>
+<p-carousel class="carousel" [value]="filteredCustomers" [numVisible]="calculateNumVisible()" [indicatorStyle]="customIndicatorStyle" [showIndicators]="false" [numScroll]="3" [circular]="true" >
+  <ng-template let-customer pTemplate="item">
+
+        <div class=" col-md-5 " >
+   <div class="customer-card card shadow shadow-primary my-2" routerLink="/customers/view/{{customer.id}}" style="width: 20rem; height: 25rem;" >
+       <div class="card-body card-body ">
+      <div class="row align-items-center">
+
+        <img  class = "customer-image rounded my-3" [src]="customer.photo" >
+
+
+         <ul class="list-group list-unstyled my-3">
+           <li class="list-group-item bg-light border-bottom"><span class="fw-bold">Name: {{customer.name}}</span></li>
+           <li class="list-group-item bg-light border-bottom"><span class="fw-bold">Mobile : {{customer.mobiles}}</span></li>
+           <li class="list-group-item bg-light border-bottom"><span class="fw-bold" >Rating : {{customer.ratings}}&nbsp;&#9733;</span></li>
+         </ul>
+
+         <div class="col " >
+              
+             <a routerLink="/customers/edit/{{customer.id}}" class="btn btn-sm btn-secondary mx-1"><i class="fa-solid fa-pen-to-square "></i>&nbsp;Update
+             </a>
+             <a href="#" (click)="onDelete(customer.id)" class="btn btn-sm btn-danger mx-1"><i class="fa-solid fa-trash "></i>&nbsp;Delete
+             </a>
+         </div>
+       </div>
+     
+        
+       </div>
+     </div>
+   </div>
+
+  
+   
+
+  </ng-template>
+ 
+</p-carousel>

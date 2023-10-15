@@ -1,0 +1,14 @@
+
+ <button class = "toggle-button" (click)="toggleSidebar()"><i class="item-icon fa-solid fa-bars"></i></button>
+  <div class="sidebar" [ngClass]="{'collapsed': isCollapsed}"> 
+    <ul>
+      <ng-container *ngFor="let item of sidebarItems">
+        <li *ngIf="isCollapsed; else expandedContent">
+          <i class = "item-icon mx-2" [ngClass]="item.icon"></i>
+        </li>
+        <ng-template #expandedContent>
+          <li><i class = "item-icon mx-2" [ngClass]="item.icon"></i> {{ item.text }}</li>
+        </ng-template>
+      </ng-container>
+    </ul>
+  </div>

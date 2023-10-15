@@ -1,0 +1,12 @@
+div.container-fluid{
+  margin: 50px;
+  margin-top: 25px;
+height: 700px;
+width: 900px;
+}
+.customer-card{
+  margin-left: 200px;
+  height: 300px;
+  padding: 10px;
+  padding-top: 2px;
+}

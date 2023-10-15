@@ -1,0 +1,48 @@
+.customer-image{
+    width : 150px;
+    height: 100px;
+    margin-left: 70px;
+    
+}
+.btn{
+    outline-color: #223A62;
+    
+}
+.btn-primary{
+    background-color: #0090A1;
+}
+.btn-secondary{
+    background-color: #00648E;
+}
+.btn-danger{
+    background-color:#963131;
+}
+.btn-add{
+    background-color:#005DA1;
+    color: white;
+}
+/* .btn-search{
+    background-color: #CCE8E6;
+} */
+.btn-search{
+    background-color: #CCE8E6;
+    outline-color: #223A62;
+}
+.btn-search:hover{
+    background-color: #B7C9FB;
+  border: #223A62 3px solid;
+}
+
+.customer-card:hover{
+    border: #00648E 5px ridge;
+    border-radius: 10px;
+}
+.ui-carousel-dots-container{
+    display: none !important;
+    }
+ul.p-carousel-indicators{
+    display: none !important;
+}
+.carousel{
+    margin-left:100px;
+}
