@@ -2,9 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
+#JSON Server
+This project stores data using a local server. use `npm start` from the project directory to start the server. Keep the server active to access data.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## JSON Server
+This project stores data using a local server. use `npm start` from the project directory to start the server. Keep the server active to access data.
+
 
 ## Code scaffolding
 
