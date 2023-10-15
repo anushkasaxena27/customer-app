@@ -5,6 +5,12 @@ nav{
     height: 50px;
     
 }
+.btn-login{
+  color: white;
+}
+.loginid{
+margin-left: 60px;
+}
 /* .navbar-brand:hover{
   background: #00648E;
 } */
