@@ -1,6 +1,8 @@
 # CustomerApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+![Screenshot 2023-10-15 220129](https://github.com/anushkasaxena27/customer-app/assets/64084071/9444199e-947c-4825-b043-14b03660c2e8)
+
 [Screenshot 2023-10-15 220402](https://github.com/anushkasaxena27/customer-app/assets/64084071/d006634b-5dcd-4223-8ef0-c4cc51672014)
 
 
